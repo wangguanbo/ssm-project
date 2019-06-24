@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <artifactId>edm-parent</artifactId>
+        <groupId>cn.edmundSofti</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>edm-supplier</artifactId>
+    <name>edm-supplier</name>
+    <version>0.0.1-SNAPSHOT</version>
+    <!-- 聚合工程 -->
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>edm-supplier-dao</module>
+        <module>edm-supplier-pojo</module>
+        <module>edm-supplier-service</module>
+        <module>edm-supplier-interface</module>
+        <module>edm-supplier-web</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>cn.edmundSofti</groupId>
+            <artifactId>edm-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
