@@ -23,13 +23,13 @@
         <module>edm-supplier-interface</module>
         <module>edm-supplier-web</module>
     </modules>
-    <dependencies>
+ <!--   <dependencies>
         <dependency>
             <groupId>cn.edmundSofti</groupId>
             <artifactId>edm-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-    </dependencies>
+    </dependencies>-->
 
 
 </project>
