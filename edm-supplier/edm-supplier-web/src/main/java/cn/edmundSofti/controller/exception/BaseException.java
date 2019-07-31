@@ -1,6 +1,7 @@
 package cn.edmundSofti.controller.exception;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 import org.springframework.web.servlet.ModelAndView;
@@ -15,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  * @Date 22:40 2019/7/11
  * @return
  **/
-@Service
+@Component
 public class BaseException implements HandlerExceptionResolver {
 
     @Override
